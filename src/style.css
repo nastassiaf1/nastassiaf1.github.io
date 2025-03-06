@@ -64,7 +64,6 @@ a, a:visited {
 .main {
     display: grid;
     grid-template-columns: 200px 2fr;
-    grid-template-rows: repeat(2, auto);
     grid-auto-flow: column;
     gap: 30px;
     margin-top: 20px;
@@ -74,7 +73,7 @@ a, a:visited {
 .main > .main__section:first-child {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 16px;
 }
 
 .main__list.main__list--empty-mark {
